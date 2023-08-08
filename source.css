@@ -6,75 +6,70 @@
 */
 
 
-
 /* Discord's variables */
 .theme-dark {
-    --background-primary: #141414;
-    --background-secondary: #111111;
-    --background-secondary-alt: #0c0c0c;
-    --background-tertiary: #0c0c0c;
-    --background-accent: #242424;
-    --background-floating: #111111;
-    --background-modifier-hover: #0a0a0a;
-    --background-modifier-active: #323232;
-    --background-modifier-selected: #242424;
-    --background-modifier-accent: #242424;
-    --button-secondary-background: #242424;
-    --button-secondary-background-hover: #323232;
-    --button-secondary-background-active: #242424;
-    --button-outline-primary-border: #323232;
-    --button-outline-primary-background-hover: #323232;
-    --modal-background: #141414;
-    --modal-footer-background: #111111;
-    --scrollbar-thin-thumb: #242424;
+    --background-primary: var(--primary-color);
+    --background-secondary: var(--secondary-color);
+    --background-secondary-alt: var(--tertiary-color);
+    --background-tertiary: var(--tertiary-color);
+    --background-accent: var(--accent1);
+    --background-floating: var(--secondary-color);
+    --background-modifier-hover: var(--tertiary-color);
+    --background-modifier-active: var(--accent2);
+    --background-modifier-selected: var(--accent1);
+    --background-modifier-accent: var(--accent1);
+    --button-secondary-background: var(--accent1);
+    --button-secondary-background-hover: var(--accent2);
+    --button-secondary-background-active: var(--accent1);
+    --button-outline-primary-border: var(--accent2);
+    --button-outline-primary-background-hover: var(--accent2);
+    --modal-background: var(--primary-color);
+    --modal-footer-background: var(--secondary-color);
+    --scrollbar-thin-thumb: var(--accent1);
     --scrollbar-thin-track: #11111100;
-    --scrollbar-auto-thumb: #242424;
-    --scrollbar-auto-track: #0c0c0c;
-	--button-outline-primary-background-hover: #323232; 
-    --button-outline-primary-background-active: #242424; 
-    --button-outline-primary-border-hover: #242424;
-    --button-outline-primary-border-active: #242424;
-    --input-background: #242424;
-    --background-message-hover: #101010;
-    --channeltextarea-background: #242424;
-    --deprecated-text-input-bg: #242424;
-    --deprecated-text-input-border: #242424;
-    --home-background: #0c0c0c;
+    --scrollbar-auto-thumb: var(--accent1);
+    --scrollbar-auto-track: var(--tertiary-color);
+	--button-outline-primary-background-hover: var(--accent2); 
+    --button-outline-primary-background-active: var(--accent1); 
+    --button-outline-primary-border-hover: var(--accent1);
+    --button-outline-primary-border-active: var(--accent1);
+    --input-background: var(--accent1);
+    --background-message-hover: var(--message-hover-color);
+    --channeltextarea-background: var(--accent1);
+    --deprecated-text-input-bg: var(--accent1);
+    --deprecated-text-input-border: var(--accent1);
+    --home-background: var(--tertiary-color);
 }
 
 /*Other stuff that I don't wanna name*/
 .theme-dark .pageWrapper-2PwDoS {
-    background-color: #141414;
+    background-color: var(--primary-color);
     color: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
 }
 
 .theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
-    background-color: #242424;
+    background-color: var(--accent1);
 }
 
 .theme-dark .autocomplete-3NRXG8 {
-    background-color: #242424;
+    background-color: var(--accent1);
 }
 
 .theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
-    background-color: #0c0c0c;
+    background-color: var(--tertiary-color);
 }
 
 .theme-dark .tierBody-1d3UiS {
-    background-color: #111111;
+    background-color: var(--secondary-color);
     color: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%);
 }
 
 .theme-dark .background-fkKrXt {
-    background-color: #111111;
+    background-color: var(--secondary-color);
 } 
 
-.theme-dark .perksModal-CLcR1c{
-	background-color: #101010;
-}
-
 .theme-dark .perk-19D_HN {
-    background-color: #242424
+    background-color: var(--accent1)
 }
 
 .card-2ZCHT-{
@@ -82,61 +77,61 @@
 }
 
 .theme-dark .notches-2w7UZJ.gray-3wP137 {
-    color: #141414
+    color: var(--primary-color)
  }
 
 .theme-dark .progress-1S-TDF {
-    background-color: #323232;
+    background-color: var(--accent2);
 }
 
 .cardPrimary-pAe8Ed {
-    background: #0c0c0c;
+    background: var(--tertiary-color);
 }
 
 .cta-3-AFNF{
-	background-color: #323232
+	background-color: var(--accent2)
 }
 
 .button-3Vyz67{
-	background-color: #323232
+	background-color: var(--accent2)
 }
 
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
-    background-color: #111111;
+    background-color: var(--secondary-color);
 }
 
 .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9 {
-    background-color: #111111;
+    background-color: var(--secondary-color);
 }
 
 .theme-dark .container-1um7CU {
-    background-color: #111111;
+    background-color: var(--secondary-color);
 }
 
 .theme-dark .checkbox-1LuCGM {
-    border-color: #242424;
+    border-color: var(--accent1);
 }
 
 .forumOrHome-2VTX6r {
-    --__header-bar-background: #111111;
+    --__header-bar-background: var(--secondary-color);
 }
 
 .container-3wLKDe {
-    background: var(--bg-overlay-chat,#111111);
+    background: var(--bg-overlay-chat,var(--secondary-color));
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker, 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
-    background-color: #141414;
+    background-color: var(--primary-color);
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day {
-   background-color: #141414;
-   border-color: #242424;
+   background-color: var(--primary-color);
+   border-color: var(--accent1);
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
-   background-color: #0c0c0c;
+   background-color: var(--tertiary-color);
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day:hover, 
@@ -145,7 +140,7 @@
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled {
-   background-color: #0c0c0c;
+   background-color: var(--tertiary-color);
 }
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
 .theme-dark .datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {

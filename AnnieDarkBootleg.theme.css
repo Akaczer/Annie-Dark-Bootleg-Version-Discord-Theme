@@ -1,0 +1,19 @@
+/**
+ * @name Annie Dark Bootleg Version Public
+ * @author Kaczer#5536
+ * @description Copy of ann.
+ * @version 1.0	
+ */ 
+
+ @import url(https://akaczer.github.io/annie-dark-bootleg-version/source.css); 
+:root{
+--primary-color: #141414;
+--secondary-color: #111111;
+--message-hover-color: #101010;
+--tertiary-color: #0c0c0c;
+--accent1: #242424;
+--accent2: #323232;
+
+}
+
+
