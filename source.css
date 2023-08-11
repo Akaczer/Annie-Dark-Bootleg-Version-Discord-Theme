@@ -1,6 +1,6 @@
 /**
  * @name Annie Dark Bootleg Version Public Source
- * @author Kaczer
+ * @author Kaczer#5536
  * @version 1.0
  * @description Copy of annie dark build override.
 */
@@ -24,9 +24,6 @@
     --background-modifier-active: var(--accent2);
     --background-modifier-selected: var(--accent1);
     --background-modifier-accent: var(--accent1);
-    --button-secondary-background: var(--accent1);
-    --button-secondary-background-hover: var(--accent2);
-    --button-secondary-background-active: var(--accent1);
     --button-outline-primary-border: var(--accent2);
     --button-outline-primary-background-hover: var(--accent2);
     --modal-background: var(--primary-color);
@@ -45,6 +42,8 @@
     --deprecated-text-input-bg: var(--accent1);
     --deprecated-text-input-border: var(--accent1);
     --home-background: var(--tertiary-color);
+    --primary-500-hsl: 217 calc(var(--saturation-factor, 1)*8%) 33.5%;
+     
 }
 
 /*Other stuff that I don't wanna name*/
