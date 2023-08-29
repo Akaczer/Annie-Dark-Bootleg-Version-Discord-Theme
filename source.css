@@ -147,11 +147,30 @@
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled {
    background-color: var(--tertiary-color);
 }
+
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
 .theme-dark .datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {
    background-color: var(--brand-500);
 }
+
 .theme-dark .datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l:hover {
    background-color: var(--brand-430);
 } 
 
+.soundButton-2P2Ua2 {
+    background: var(--accent1);
+}
+
+.search-1FM8Qc .searchBar-zdmu7v, .queryContainer-ZunrLZ.focused-2FU0YH {
+    background: var(--accent1)
+ }
+
+.option-ayUoaq:after {opacity: 0.2;}
+
+.theme-dark .message-G6O-Wv{
+    background-color: var(--primary-color);
+}
+
+.categoryHeader-OpJ1Ly {
+    background-color: var(--accent1);
+}
