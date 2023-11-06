@@ -60,6 +60,15 @@
     background-color: var(--accent1);
 }
 
+/* bot menu and soundboard*/
+.wrapper_cd625e {
+    background-color: var(--accent1); 
+}
+
+.categoryHeader_f97a5f {
+    background-color: var(--accent1);
+}
+
 /* bot menu */
 .wrapper__4e8f1 {
     background-color: var(--accent1);
@@ -67,11 +76,17 @@
     border-color:  var(--accent2);
     border-style: solid;
 }
-.wrapper_cd625e {
-    background-color: var(--accent1); 
-}
 
 .categoryHeader_f97a5f {
+    background-color: var(--accent1);
+}
+
+/*soundboard */
+.soundButton__5ad7b {
+    background: var(--accent1);
+}
+
+.header_bf5f46 {
     background-color: var(--accent1);
 }
 
@@ -210,10 +225,6 @@
 }
  
 
-/* sound menu buttons */
-.soundButton__5ad7b {
-    background: var(--accent1);
-}
 
 /* ? */
 .theme-dark .message-G6O-Wv{
