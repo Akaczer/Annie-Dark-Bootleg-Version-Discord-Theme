@@ -7,8 +7,8 @@
 :root{
     --primary-color: #141414;
     --secondary-color: #111111;
-    --message-hover-color: #101010;
     --tertiary-color: #0c0c0c;
+    --message-hover-color: #101010;
     --accent1: #242424;
     --accent2: #323232;
     }
@@ -45,139 +45,209 @@
     --deprecated-text-input-bg: var(--accent1);
     --deprecated-text-input-border: var(--accent1);
     --home-background: var(--tertiary-color);
-    /* --primary-500-hsl: 217 calc(var(--saturation-factor, 1)*8%) 33.5%; */
      
 }
 
-/*Other stuff that I don't wanna name*/
-.theme-dark .pageWrapper-2PwDoS {
+/*i don't remember what most of the classes do, probably gonna find out later*/
+
+/* discover page */
+.theme-dark .pageWrapper_fef757 {
     background-color: var(--primary-color);
-    color: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
 }
 
-.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {
+/* ping and bot menu */
+.theme-dark .autocomplete_df266d  {
     background-color: var(--accent1);
 }
 
-.theme-dark .autocomplete-3NRXG8 {
+/* bot menu */
+.wrapper__4e8f1 {
+    background-color: var(--accent1);
+    border-right: 1px;
+    border-color:  var(--accent2);
+    border-style: solid;
+}
+.wrapper_cd625e {
+    background-color: var(--accent1); 
+}
+
+.categoryHeader_f97a5f {
     background-color: var(--accent1);
 }
 
+/* ? */
 .theme-dark .tierHeaderLocked-30MLlO, .theme-dark .tierHeaderUnlocked-1OpOLf {
     background-color: var(--tertiary-color);
 }
 
+/* ? */
 .theme-dark .tierBody-1d3UiS {
     background-color: var(--secondary-color);
     color: hsl(216,calc(var(--saturation-factor, 1)*3.7%),73.5%);
 }
 
+/* ? */
 .theme-dark .background-fkKrXt {
     background-color: var(--secondary-color);
 } 
 
+/* ? */
 .theme-dark .perk-19D_HN {
     background-color: var(--accent1)
 }
 
+/* ? */
 .card-2ZCHT-{
     background-color: #141414E6;
 }
 
+/* ? */
 .theme-dark .notches-2w7UZJ.gray-3wP137 {
     color: var(--primary-color)
  }
 
+/* ? */
 .theme-dark .progress-1S-TDF {
     background-color: var(--accent2);
 }
 
+/* ? */
 .cardPrimary-pAe8Ed {
     background: var(--tertiary-color);
 }
 
+/* ? */
 .cta-3-AFNF{
 	background-color: var(--accent2)
 }
 
+/* ? */
 .button-3Vyz67{
 	background-color: var(--accent2)
 }
 
-.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+/* channels & roles */
+.theme-dark .container__10dc7, .theme-dark .header__60bef {
     background-color: var(--secondary-color);
 }
 
+/* ? */
+.theme-dark .scrollerContainer_bf5dbd, .theme-dark .emptyPage__3e15d {
+    background-color: var(--secondary-color);
+}
+/* ? */
 .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9 {
     background-color: var(--secondary-color);
 }
 
-.theme-dark .container-1um7CU {
-    background-color: var(--secondary-color);
-}
-
+/* ? */
 .theme-dark .checkbox-1LuCGM {
     border-color: var(--accent1);
 }
 
+/* ? */
 .forumOrHome-2VTX6r {
     --__header-bar-background: var(--secondary-color);
 }
 
+/* ? */
 .container-3wLKDe {
     background: var(--bg-overlay-chat,var(--secondary-color));
 }
 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker, 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
-    background-color: var(--primary-color);
+/* search bar */
+.option_b5597b:after {
+    display: none
+}
+    
+.container_d6dad3 {
+     background-color: var(--accent1);
+}
+    
+.searchAnswer_b452e7, .searchFilter__118cb, .jumpButton-JkYoYK {
+    background-color: var(--accent2);
+}
+    
+.search-1FM8Qc .searchBar-zdmu7v, .queryContainer_c359fe.focused_f9cf2c {
+    background: none;
 }
 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day {
+/* date picker */
+
+#app-mount .calendarPicker__5c474 .react-datepicker__day {
+	border-color: var(--accent2);
+
+}
+
+.theme-dark .calendarPicker__5c474 .react-datepicker {
+    background-color: var(--accent1);
+    border-bottom: 1px solid var(--accent2) ;
+}
+
+.theme-dark .calendarPicker__5c474 .react-datepicker__header {
+    background-color: var(--accent1);
+}
+
+.theme-dark .calendarPicker__5c474 .react-datepicker__day {
+   background-color: var(--accent1);
+}
+
+.theme-dark .calendarPicker__5c474 .react-datepicker__day--outside-month {
    background-color: var(--primary-color);
-   border-color: var(--accent1);
 }
-
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month {
-   background-color: var(--tertiary-color);
-}
-
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day:hover, 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover {
+ .calendarPicker__5c474 .react-datepicker__day:hover, 
+.theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:hover {
    background-color: var(--brand-500);
 }
 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled {
+.theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled {
    background-color: var(--tertiary-color);
 }
 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
+.theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:after,
 .theme-dark .datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {
    background-color: var(--brand-500);
 }
+ 
 
-.theme-dark .datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l:hover {
-   background-color: var(--brand-430);
-} 
-
-.soundButton-2P2Ua2 {
+/* sound menu buttons */
+.soundButton__5ad7b {
     background: var(--accent1);
 }
 
-.search-1FM8Qc .searchBar-zdmu7v, .queryContainer-ZunrLZ.focused-2FU0YH {
-    background: var(--accent1)
- }
-
-.option-ayUoaq:after {opacity: 0.2;}
-
+/* ? */
 .theme-dark .message-G6O-Wv{
     background-color: var(--primary-color);
 }
 
-.categoryHeader-OpJ1Ly {
-    background-color: var(--accent1);
-}
-
+/* ? */
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover {
 	background-color: var(--accent2);
+}
+
+/* ? */
+.theme-dark .directoryContainer_d3edd9 {
+    background-color: var(--background-primary);
+}
+
+/* keyboard combos */
+.theme-dark .keyboardShortcutsModal__74c71 {
+    background-color: var(--primary-color);
+}
+
+/* ? */
+.theme-dark .modalSubtitle__40325 {
+    border-bottom: 1px solid;
+    border-color: var(--accent1);
+    color: var(--primary-200);
+}
+
+/* pinned messages */
+.messageGroupWrapper_f8c6e9 {
+    border-color: var(--accent1);
+}
+
+/* threads */
+.searchBox_ff53b2{
+    background-color:var(--accent1);
 }
